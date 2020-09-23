@@ -24,9 +24,7 @@ public class CreateGame {
        
         public void gameInit(int gameAmount) {
         	//Using ArrayList to create multiple objects
-        	
-        	// Inside loop so user can create multiple games, change "i<2" to a user input declaring the amount of games intended to be registered.
-        	int i = 0;
+         	int i = 0;
         	do {
         		UUID uuid = UUID.randomUUID();
         		String gameId = uuid.toString();

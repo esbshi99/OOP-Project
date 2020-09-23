@@ -6,12 +6,24 @@ public class GameManaging {
         
         
 		
-		CreateGame gameStorage = new CreateGame(null, null, null, 0);
+	//	CreateGame gameStorage = new CreateGame(null, null, null, 0);
 		
 		//Parameter is the desired amount of games to be created.
-		gameStorage.gameInit(3);
+	//	gameStorage.gameInit(3);
 		// The id of the game is requested as user input when method is called
-  		gameStorage.delete();
+  	//	gameStorage.delete();
+		
+	/*
+	 * 
+	 * Creating a customer:
+		Customer customerCreation = new Customer(null, null);
+		
+		Enter number of desired customers to be created
+		customerCreation.initCustomer(3);
+		//Call method and user is prompted to enter id of customer to delete.
+		customerCreation.delete(); 
+		
+		*/
 
 	}
 	
@@ -20,6 +32,7 @@ public class GameManaging {
 }  
 
 
+//git@github.com:EnisBourbia/OOP-Project.git
 
 	
 	
