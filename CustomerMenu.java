@@ -1,12 +1,14 @@
 package Milestone;
 import java.util.Scanner;
 
+
 public class CustomerMenu {
 	boolean mainMenu; //instance variable --> automatically false
 	
-	public static void main(String[] args) {
-		 CustomerMenu menu = new CustomerMenu(); //create new instance variable
-		 menu.runCustomerMenu();
+	
+	public CustomerMenu() {
+		 
+		runCustomerMenu();
 		
 	}
 	
@@ -65,7 +67,7 @@ public class CustomerMenu {
 			
 			
 		}else if(option == 3) {
-			System.out.println("Return to Main Menu. ");
+			new MainMenu().showMainMenu();
 		
 		}
 		
