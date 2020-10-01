@@ -1,4 +1,5 @@
 package Milestone;
+
 import java.util.Scanner;
 
 
@@ -7,6 +8,7 @@ public class CustomerMenu {
 	
 	
 	public CustomerMenu() {
+
 		 
 		runCustomerMenu();
 		
@@ -23,15 +25,13 @@ public class CustomerMenu {
 				
 		
 	}
-	
-	
+		
 	private void printCustomerMenu() {
 		System.out.println("\nType one of the options below: ");
 		System.out.println("1. Rent a game");
 		System.out.println("2. Return a game ");
 		System.out.println("3. Return to Main Menu");
 
-	
 	}
 
 	private int getInput() {
@@ -72,6 +72,7 @@ public class CustomerMenu {
 		}
 		
 	}
+
 }
 	
 
